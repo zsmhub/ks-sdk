@@ -1,0 +1,5 @@
+.idea/
+vendor/
+.claude/
+tmp_file.txt
+.DS_Store
