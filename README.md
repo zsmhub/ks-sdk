@@ -21,7 +21,7 @@ go get github.com/zsmhub/ks-sdk
 
 **去 ./demo 文件夹查看完整示例！**
 
-[点击查看完整demo](https://github.com/zsmhub/ks-sdk/-/tree/master/demo)
+[点击查看完整demo](https://github.com/zsmhub/ks-sdk/tree/main/demo)
 
 ## 注意
 
