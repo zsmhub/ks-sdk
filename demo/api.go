@@ -52,7 +52,7 @@ func GetOrderList() {
 	}
 	var resp api.RespGetOrderList
 
-	err := ks_sdk.NewKsClient(AppKey, AppSecret, SignSecret).
+	err := ks_sdk.NewKsClient(AppKey, SignSecret).
 		SetAccessToken(AccessToken).
 		Execute(req, &resp)
 	if err != nil {
@@ -74,7 +74,7 @@ func GetOrderDetail() {
 	}
 	var resp api.RespGetOrderDetail
 
-	err := ks_sdk.NewKsClient(AppKey, AppSecret, SignSecret).
+	err := ks_sdk.NewKsClient(AppKey, SignSecret).
 		SetAccessToken(AccessToken).
 		Execute(req, &resp)
 	if err != nil {
@@ -102,7 +102,7 @@ func GetOrderRefundList() {
 	}
 	var resp api.RespOrderRefundList
 
-	err := ks_sdk.NewKsClient(AppKey, AppSecret, SignSecret).
+	err := ks_sdk.NewKsClient(AppKey, SignSecret).
 		SetAccessToken(AccessToken).
 		Execute(req, &resp)
 	if err != nil {

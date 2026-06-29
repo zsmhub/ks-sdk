@@ -13,7 +13,6 @@ import (
 // AppKey / AppSecret / SignSecret 由调用方传入，AccessToken 通过 SetAccessToken 设置。
 type ApiClient struct {
 	AppKey      string
-	AppSecret   string
 	SignSecret  string
 	AccessToken string
 }
